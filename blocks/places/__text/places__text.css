@@ -1,0 +1,33 @@
+.places__text {
+  width: 484px;
+  font-size: 18px;
+  line-height: 163%;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 0 0 0;
+  padding: 0 0 26px 0;
+  box-sizing: border-box;
+  align-content: flex-start;
+}
+
+.places__text:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__text {
+    width: 465px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__text {
+    width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__text {
+    width: 228px;
+  }
+}

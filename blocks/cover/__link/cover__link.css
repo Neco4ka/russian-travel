@@ -1,0 +1,15 @@
+.cover__link {
+  text-decoration: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__link:hover {
+  opacity: 0.5;
+}

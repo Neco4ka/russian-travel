@@ -1,0 +1,11 @@
+.footer__items {
+  width: calc(1184px - 206px);
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  box-sizing: border-box;
+  gap: 18px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}

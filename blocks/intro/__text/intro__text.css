@@ -1,0 +1,23 @@
+.intro__text {
+  margin: 0 0 0 0;
+  padding: 40px 0 33px 0;
+  box-sizing: border-box;
+  width: 690px;
+
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 93.7%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    width: 90%;
+  }
+}

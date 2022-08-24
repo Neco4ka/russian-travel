@@ -1,0 +1,10 @@
+.footer__menu {
+  max-width: 1184px;
+  margin: 0 0 0 0;
+  padding: 92px 0 0 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

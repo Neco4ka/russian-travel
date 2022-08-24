@@ -1,0 +1,39 @@
+.places__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 106%;
+  font-style: normal;
+  width: 460px;
+
+  margin: 0 0 0 0;
+  padding: 0 0 48px 0;
+  box-sizing: border-box;
+}
+
+.places__text:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__text {
+    width: 440px;
+    font-size: 72px;
+    line-height: 106%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__text {
+    width: 340px;
+    font-size: 42px;
+    line-height: 110%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__text {
+    width: 228px;
+    font-size: 32px;
+    line-height: 109%;
+  }
+}
