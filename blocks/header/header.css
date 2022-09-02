@@ -3,31 +3,28 @@
   min-height: 52px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 28px 0 0 0;
+  padding: 0 0 0 0;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
     width: 90.6%;
-    max-height: 52px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
     width: 93.7%;
-    max-height: 52px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
     width: 90%;
-    max-height: 42px;
-    padding: 16px 0 0 0;
+    padding: 0 0 0 0;
   }
 }

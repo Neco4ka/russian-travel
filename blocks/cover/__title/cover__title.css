@@ -12,3 +12,11 @@
   z-index: 5;
   text-shadow: 1px 1px 1px #000;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    width: 228px;
+    font-size: 32px;
+    line-height: 109%;
+  }
+}

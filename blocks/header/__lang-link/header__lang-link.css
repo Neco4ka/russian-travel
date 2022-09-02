@@ -12,12 +12,23 @@
 
   row-gap: 18px;
 
-  font-size: 1.3em;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 117%;
   font-style: normal;
 }
 
 .header__lang-link:first-of-type {
   margin-right: 18px;
+}
+
+.header__lang-link:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 111%;
+  }
 }

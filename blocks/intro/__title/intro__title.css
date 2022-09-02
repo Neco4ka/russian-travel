@@ -10,8 +10,25 @@
   line-height: 107%;
 }
 
-@media screen and (max-width: 320px) {
-  .intro {
+@media screen and (min-width: 575px) and (max-width: 744px) {
+  .intro__title {
+    width: 500px;
+    font-size: 46px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 574px) {
+  .intro__title {
     width: 90%;
+    line-height: 110%;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    width: 90%;
+    line-height: 110%;
+    font-size: 32px;
   }
 }

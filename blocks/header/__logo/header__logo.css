@@ -2,7 +2,7 @@
   min-width: 176px;
   height: 52px;
   padding: 0 0 0 0;
-  margin: 0 0 0 0;
+  margin: 28px 0 0 0;
   box-sizing: border-box;
   background-image: url("../../../images/header-logo.svg");
   background-size: cover;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 320px) {
   .header__logo {
-    width: 142px;
-    height: 42px;
+    max-width: 142px;
+    margin: 16px 0 0 0;
   }
 }

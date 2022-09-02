@@ -13,3 +13,22 @@
 .cover__link:hover {
   opacity: 0.5;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    max-width: 320px;
+    height: 200;
+  }
+}

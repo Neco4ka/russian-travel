@@ -11,13 +11,30 @@
 }
 
 @media screen and (max-width: 768px) {
-  .lead {
-    width: 93.7%;
+  .intro__text {
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 575px) and (max-width: 744px) {
+  .intro__text {
+    width: 500px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 574px) {
+  .intro__text {
+    width: 90%;
+    font-size: 16px;
+    line-height: 163%;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .lead {
-    width: 90%;
+  .intro__text {
+    width: 288px;
+    font-size: 16px;
+    line-height: 163%;
   }
 }

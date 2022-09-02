@@ -2,20 +2,9 @@
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  justify-content: center;
+  justify-content: flex-end;
   align-self: flex-end;
-  margin: 0 0 0 0;
+  margin: 28px 0 0 0;
   padding: 0 0 0 0;
   box-sizing: border-box;
-}
-
-.header__lang-link:hover {
-  opacity: 0.5;
-}
-
-@media screen and (max-width: 320px) {
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 111%;
-  }
 }

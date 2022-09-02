@@ -15,18 +15,21 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 100%;
+    max-width: 1024px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    width: 100%;
+    max-width: 768px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    width: 100%;
+    max-width: 320px;
+    min-height: 100%;
   }
 }
