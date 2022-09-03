@@ -13,6 +13,15 @@
   text-shadow: 1px 1px 1px #000;
 }
 
+@media screen and (min-width: 321px) and (max-width: 574px) {
+  .cover__title {
+    font-size: 48px;
+    line-height: 109%;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__title {
     width: 228px;

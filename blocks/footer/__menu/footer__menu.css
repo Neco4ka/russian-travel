@@ -21,31 +21,35 @@
 
 @media screen and (min-width: 575px) and (max-width: 768px) {
   .footer__menu {
-    width: 500px;
-    flex-direction: column;
+    max-width: 90%;
     gap: 32px;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 574px) {
+@media screen and (min-width: 321px) and (max-width: 575px) {
   .footer__menu {
     max-width: 90%;
     flex-direction: column;
     gap: 32px;
     box-sizing: border-box;
+    margin: 0 0 0 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__menu {
-    max-width: 310px;
-    max-height: 310px;
+    max-width: 90%;
 
     margin: 0 0 0 0;
     padding-top: 64px;
     padding-left: 16px;
     padding-right: 116px;
     padding-bottom: 24px;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 32px;
     box-sizing: border-box;
   }
 }

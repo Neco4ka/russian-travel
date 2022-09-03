@@ -23,21 +23,22 @@
 
 @media screen and (max-width: 1024px) {
   .places__text {
-    width: 456px;
+    max-width: 456px;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
   .places__text {
-    width: 352px;
+    max-width: 352px;
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__text {
-    width: 352px;
+    max-width: 300px;
     font-size: 16px;
+    padding-top: 32px;
   }
 }
 
@@ -45,6 +46,7 @@
   .places__text {
     width: 300px;
     font-size: 16px;
+    padding-top: 32px;
   }
 }
 
@@ -53,7 +55,7 @@
     width: 288px;
     font-size: 16px;
     margin: 0 auto;
-    padding: 0 0 0 0;
+    padding: 32px 0 0 0;
   }
 
   .places__text:first-of-type {

@@ -48,6 +48,11 @@
 @media screen and (max-width: 320px) {
   .footer__items {
     max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 0 0 0 0;
   }
   .places__items:last-of-type {
     padding-bottom: 48px;

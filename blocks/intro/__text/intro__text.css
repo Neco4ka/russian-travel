@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 574px) {
+@media screen and (min-width: 321px) and (max-width: 575px) {
   .intro__text {
     width: 90%;
     font-size: 16px;

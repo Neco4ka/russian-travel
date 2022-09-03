@@ -65,7 +65,7 @@
 @media screen and (max-width: 320px) {
   .places__place {
     max-width: 320px;
-    max-height: 5177px;
+    max-height: 100%;
     grid-template-columns: repeat(1, fit-content(100%));
     grid-template-rows: repeat(4, fit-content(100%));
     grid-template-areas:
@@ -75,10 +75,11 @@
       "text";
   }
   .places__place:first-of-type {
-    padding-top: 64px;
+    padding-top: 50px;
   }
 
   .places__place:last-of-type {
     padding-bottom: 64px;
+    padding-top: 50px;
   }
 }
