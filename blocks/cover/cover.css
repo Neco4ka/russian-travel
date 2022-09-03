@@ -7,16 +7,27 @@
 
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
-}
-
-.cover:hover {
-  opacity: 0.8;
+  background-position: center;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     max-width: 1024px;
     min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 574px) and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    height: 62.5%;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 574px) {
+  .cover {
+    width: 100%;
+    height: 62.5%;
   }
 }
 

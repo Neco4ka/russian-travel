@@ -8,10 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.cover__link:hover {
-  opacity: 0.5;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
