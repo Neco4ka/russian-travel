@@ -1,19 +1,15 @@
 .footer__menu {
   max-width: 1184px;
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 92px 0 24px 0;
   box-sizing: border-box;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 @media screen and (max-width: 575px) {
   .footer__menu {
     max-width: 575px;
 
-    margin: 0 0 0 0;
+    margin: 0;
 
     box-sizing: border-box;
   }
@@ -34,7 +30,7 @@
     flex-direction: column;
     gap: 32px;
     box-sizing: border-box;
-    margin: 0 0 0 0;
+    margin: 0;
   }
 }
 
@@ -42,7 +38,7 @@
   .footer__menu {
     max-width: 90%;
 
-    margin: 0 0 0 0;
+    margin: 0;
     padding-top: 64px;
     padding-left: 16px;
     padding-right: 116px;

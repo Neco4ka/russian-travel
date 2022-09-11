@@ -1,34 +1,34 @@
-.places__text {
+.place__text {
   width: 484px;
   font-size: 18px;
   line-height: 163%;
   font-weight: 400;
   font-style: normal;
-  margin: 0 0 0 0;
+  margin: 0;
   padding: 0 0 26px 0;
   box-sizing: border-box;
   align-content: flex-start;
 }
 
-.places__text:last-of-type {
+.place__text:last-of-type {
   padding-bottom: 0;
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1120px) {
-  .places__text {
+  .place__text {
     max-width: 400px;
     font-size: 17px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .places__text {
+  .place__text {
     max-width: 456px;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1023px) {
-  .places__text {
+  .place__text {
     max-width: 352px;
     font-size: 16px;
   }

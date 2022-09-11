@@ -1,7 +1,7 @@
 .cover__background {
   width: 100%;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  margin: 0;
+  padding: 0;
 
   z-index: 1;
   box-sizing: border-box;

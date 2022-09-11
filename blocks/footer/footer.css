@@ -1,8 +1,13 @@
 .footer {
   max-width: 92.5%;
   margin: 0 auto;
-  padding: 0 0 0 0;
+  padding: 0;
   box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,8 +26,8 @@
   .footer {
     width: 186px;
     height: 310;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
 }
