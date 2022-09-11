@@ -1,17 +1,21 @@
 .footer__menu {
   max-width: 1184px;
+  width: 100%;
   margin: 0;
   padding: 92px 0 24px 0;
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__menu {
+    max-width: 490px;
+    gap: 18px;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .footer__menu {
     max-width: 575px;
-
-    margin: 0;
-
-    box-sizing: border-box;
   }
 }
 
@@ -19,8 +23,6 @@
   .footer__menu {
     max-width: 90%;
     gap: 32px;
-    flex-direction: column;
-    justify-content: space-between;
   }
 }
 
@@ -29,23 +31,17 @@
     max-width: 90%;
     flex-direction: column;
     gap: 32px;
-    box-sizing: border-box;
-    margin: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__menu {
     max-width: 90%;
-
-    margin: 0;
     padding-top: 64px;
     padding-left: 16px;
-    padding-right: 116px;
+    padding-right: 0;
     padding-bottom: 24px;
-    box-sizing: border-box;
     flex-direction: column;
     gap: 32px;
-    box-sizing: border-box;
   }
 }

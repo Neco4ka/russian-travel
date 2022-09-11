@@ -14,6 +14,11 @@
   padding-bottom: 0;
 }
 
+.place__text:first-of-type {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
 @media screen and (min-width: 1025px) and (max-width: 1120px) {
   .place__text {
     max-width: 400px;
@@ -35,35 +40,23 @@
 }
 
 @media screen and (max-width: 768px) {
-  .places__text {
+  .place__text {
     max-width: 300px;
-    font-size: 16px;
-    padding-top: 32px;
-  }
-}
-
-@media screen and (min-width: 575px) and (max-width: 767px) {
-  .places__text {
-    width: 300px;
-    font-size: 16px;
     padding-top: 32px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .places__text {
+  .place__text {
     width: 288px;
-    font-size: 16px;
     margin: 0 auto;
-    padding: 32px 0 0 0;
   }
 
-  .places__text:first-of-type {
+  .place__text:first-of-type {
     padding-bottom: 0;
-    padding-top: 32px;
   }
 
-  .places__text:last-of-type {
+  .place__text:last-of-type {
     padding-top: 25px;
   }
 }

@@ -2,7 +2,7 @@
   margin: 0;
   padding: 40px 0 33px 0;
   box-sizing: border-box;
-  width: 690px;
+  max-width: 690px;
 
   font-size: 16px;
   font-weight: 400;
@@ -12,29 +12,24 @@
 
 @media screen and (max-width: 768px) {
   .intro__text {
-    width: 720px;
+    max-width: 720px;
   }
 }
 
 @media screen and (min-width: 575px) and (max-width: 744px) {
   .intro__text {
-    width: 500px;
-    font-size: 16px;
+    max-width: 500px;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 575px) {
   .intro__text {
-    width: 90%;
-    font-size: 16px;
-    line-height: 163%;
+    max-width: 90%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__text {
-    width: 288px;
-    font-size: 16px;
-    line-height: 163%;
+    max-width: 288px;
   }
 }

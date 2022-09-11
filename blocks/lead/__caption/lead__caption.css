@@ -5,8 +5,7 @@
   font-style: normal;
   text-align: left;
   align-self: flex-start;
-  width: 158px;
-  height: 14px;
+  min-width: 158px;
   margin-top: 8px;
   margin-bottom: 0;
   margin-left: 0;
@@ -14,6 +13,7 @@
   padding: 0;
   box-sizing: border-box;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -23,12 +23,6 @@
 }
 
 @media screen and (max-width: 575px) {
-  .lead__caption {
-    padding: 0 0 0 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .lead__caption {
     padding: 0 0 0 16px;
   }
