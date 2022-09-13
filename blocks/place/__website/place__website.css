@@ -8,7 +8,7 @@
 @media screen and (max-width: 320px) {
   .place__website {
     margin: 0;
-    padding: 0 0 32px 0;
+    padding: 0 0 32px 16px;
     box-sizing: border-box;
   }
 }

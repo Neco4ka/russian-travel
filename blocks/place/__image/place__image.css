@@ -1,5 +1,6 @@
 .place__image {
-  width: 460px;
+  max-width: 460px;
+  width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,7 +8,7 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    width: 440px;
+    max-width: 440px;
   }
 }
 
@@ -19,24 +20,24 @@
 
 @media screen and (max-width: 768px) {
   .place__image {
-    width: 340px;
+    max-width: 340px;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .place__image {
-    width: 320px;
+    max-width: 300px;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 575px) {
   .place__image {
-    width: 320px;
+    max-width: 300px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__image {
-    width: 320px;
+    max-width: 320px;
   }
 }

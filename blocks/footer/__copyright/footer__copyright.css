@@ -1,33 +1,27 @@
 .footer__copyright {
   max-width: 230px;
   width: 100%;
+  min-width: 230px;
   font-size: 14px;
   font-weight: 400;
-  line-height: 16px;
   margin: 0;
   padding: 0 0 24px 0;
   box-sizing: border-box;
   text-align: end;
 }
 
-@media screen and (min-width: 575px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__copyright {
     line-height: 112%;
     padding-top: 16px;
-    flex-direction: column;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 574px) {
-  .footer__copyright {
-    line-height: 14px;
-    padding-top: 16px;
+    text-align: start;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
-    padding-top: 16px;
+    padding-top: 0;
+    padding-left: 16px;
     line-height: 14px;
   }
 }

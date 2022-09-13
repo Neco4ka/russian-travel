@@ -8,8 +8,7 @@
 
 @media screen and (max-width: 768px) {
   .footer__menu {
-    max-width: 490px;
-    gap: 18px;
+    max-width: 500px;
   }
 }
 
@@ -22,15 +21,14 @@
 @media screen and (min-width: 575px) and (max-width: 768px) {
   .footer__menu {
     max-width: 90%;
-    gap: 32px;
+    padding-bottom: 0;
   }
 }
-
-@media screen and (min-width: 321px) and (max-width: 575px) {
+@media screen and (min-width: 321px) and (max-width: 505px) {
   .footer__menu {
     max-width: 90%;
+    padding-bottom: 0;
     flex-direction: column;
-    gap: 32px;
   }
 }
 
@@ -40,8 +38,7 @@
     padding-top: 64px;
     padding-left: 16px;
     padding-right: 0;
-    padding-bottom: 24px;
+    padding-bottom: 48px;
     flex-direction: column;
-    gap: 32px;
   }
 }

@@ -15,24 +15,15 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 574px) {
   .footer__item {
-    font-size: 24px;
-    line-height: 24px;
-  }
-}
-
-@media screen and (min-width: 575px) and (max-width: 768px) {
-  .footer__item {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 14px;
+    row-gap: 18px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__item {
-    padding-bottom: 32px;
     font-size: 24px;
-    line-height: 24px;
   }
 }

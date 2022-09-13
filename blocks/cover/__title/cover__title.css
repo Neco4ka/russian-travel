@@ -8,24 +8,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
   z-index: 5;
-  text-shadow: 1px 1px 1px #000;
 }
 
 @media screen and (min-width: 321px) and (max-width: 574px) {
   .cover__title {
-    font-size: 48px;
+    max-width: 550px;
+    font-size: 42px;
     line-height: 109%;
-    box-sizing: border-box;
-    flex-direction: column;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    width: 228px;
+    max-width: 228px;
     font-size: 32px;
-    line-height: 109%;
+    padding: 33px 0 0 0;
   }
 }

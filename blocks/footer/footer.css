@@ -11,21 +11,28 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    width: 90.6%;
+    max-width: 90.6%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    width: 93.75%;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    margin: 16px;
+    max-width: 90%;
+    flex-direction: column;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer {
-    width: 186px;
+    max-width: 186px;
     min-height: 310px;
     margin: 0;
-    flex-direction: column;
   }
 }

@@ -48,12 +48,13 @@
 
 @media screen and (max-width: 320px) {
   .place__text {
-    width: 288px;
+    max-width: 288px;
     margin: 0 auto;
   }
 
   .place__text:first-of-type {
     padding-bottom: 0;
+    padding-top: 25px;
   }
 
   .place__text:last-of-type {

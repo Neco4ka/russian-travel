@@ -37,10 +37,10 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 744px) {
+@media screen and (min-width: 321px) and (max-width: 650px) {
   .place {
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 490px;
     grid-template-columns: repeat(1, fit-content(100%));
     grid-template-rows: repeat(4, fit-content(100%));
     grid-template-areas:
