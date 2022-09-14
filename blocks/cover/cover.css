@@ -23,17 +23,16 @@
   }
 }
 
-@media screen and (min-width: 574px) and (max-width: 767px) {
-  .cover {
-    width: 100%;
-    height: 62.5%;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .cover {
     max-width: 768px;
     min-height: 480px;
+  }
+}
+@media screen and (min-width: 574px) and (max-width: 768px) {
+  .cover {
+    width: 100%;
+    height: 62.5%;
   }
 }
 

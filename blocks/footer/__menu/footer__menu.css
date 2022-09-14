@@ -24,7 +24,7 @@
     padding-bottom: 24px;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 574px) {
+@media screen and (min-width: 320px) and (max-width: 574px) {
   .footer__menu {
     max-width: 90%;
     padding-top: 24px;
