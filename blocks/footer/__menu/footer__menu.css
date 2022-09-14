@@ -18,16 +18,16 @@
   }
 }
 
-@media screen and (min-width: 575px) and (max-width: 768px) {
+@media screen and (min-width: 574px) and (max-width: 768px) {
   .footer__menu {
     max-width: 90%;
-    padding-bottom: 0;
+    padding-bottom: 24px;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 505px) {
   .footer__menu {
     max-width: 90%;
-    padding-bottom: 0;
+    padding-bottom: 24px;
     flex-direction: column;
   }
 }

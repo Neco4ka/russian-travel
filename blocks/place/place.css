@@ -34,6 +34,11 @@
   .place {
     max-width: 720px;
     column-gap: 28px;
+    padding-top: 88px;
+  }
+
+  .place:last-of-type {
+    padding-bottom: 90px;
   }
 }
 
@@ -61,6 +66,7 @@
 @media screen and (max-width: 320px) {
   .place {
     max-width: 320px;
+    padding-top: 50px;
     grid-template-columns: repeat(1, fit-content(100%));
     grid-template-rows: repeat(4, fit-content(100%));
     grid-template-areas:
@@ -70,11 +76,11 @@
       "text";
   }
   .place:first-of-type {
-    padding-top: 50px;
+    padding-top: 64px;
   }
 
   .place:last-of-type {
-    padding-bottom: 64px;
+    padding-bottom: 66px;
     padding-top: 50px;
   }
 }
