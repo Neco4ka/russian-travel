@@ -34,6 +34,10 @@
   .place {
     max-width: 720px;
     column-gap: 28px;
+    padding-top: 73px;
+  }
+
+  .place:first-of-type {
     padding-top: 88px;
   }
 
